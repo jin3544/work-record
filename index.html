@@ -110,8 +110,6 @@ function nfSubmit(){
     +"?submittedAt="+encodeURIComponent(now.toLocaleString("ko-KR"))
     +"&writer="+encodeURIComponent(writer)
     +"&village="+encodeURIComponent(village)
-    +"&region="+encodeURIComponent("")
-    +"&month="+encodeURIComponent(now.getFullYear()+"년 "+(now.getMonth()+1)+"월")
     +"&tasks="+encodeURIComponent(checked.join(", "));
   var img = new Image();
   img.onload = img.onerror = function(){
